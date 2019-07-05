@@ -5,6 +5,10 @@ import config from '../../config/SiteConfig';
 import Blog from '../components/Blog';
 
 export default class IndexPage extends React.Component<PageProps> {
+  constructor(props) {
+    super(props);
+    window.location.replace('https://www.pwawithangular.com');
+  }
   public render() {
     return (
       <Layout>

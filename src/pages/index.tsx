@@ -10,8 +10,8 @@ export default class IndexPage extends React.Component<PageProps> {
       <Layout>
         <SEO title={`${config.siteTitle}`} />
         <main>
-          <Header />
-          <Blog id="Blog" />
+          {/* <Header /> */}
+          {/* <Blog id="Blog" /> */}
         </main>
       </Layout>
     );
